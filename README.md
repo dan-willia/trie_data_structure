@@ -1,5 +1,5 @@
 # trie_data_structure
-This project implements a trie structure.
+This project implements a trie structure. See "master" branch for code. 
 
 The basic idea of a trie, when used with words, is that you store all the first letters of the words as children of the parent node; all the strings stored in level one have a length of one, and there will be as many children as there are unique first letters in your list of words. For level two, store the first two letters of each word as children of the node of the appropriate first letter. Continue until all words are stored. The number of levels should be equal to the length of the longest word. Here is an example:
 
